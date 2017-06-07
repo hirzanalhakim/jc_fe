@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer{
+    background-color:black;
+    height: 90px;
+}
+.header{
+    background-color:purple;
+    height: 90px;
+}
+
+
+.menu{
+    margin: 15 0;
+    padding: 0;
+    float: left;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+ul li a:hover{
+    background-color: grey;
+}
+
+
+ul li a{
+
+display: block;
+padding: 12px;
+width: 100%;
+text-decoration: none;
+color: white;
+background-color: aqua;
+text-align: center;
+margin-bottom: 8px;
+}
+
+.container{
+    background-color:yellowgreen;
+    margin: 15 0;
+    float: left;
+}
+
+.banner{
+    background-color:aqua;
+    margin: 15 0;
+    float: left;
+}
+#footer {
+    background-color: gray;
+    height: 90px;
+}
+
+/*@media untuk Tablet*/
+@media only screen and (min-width: 500px){
+
+        .col-t-1 {width: 8.33%;}
+        .col-t-2{width: 16.66%;}
+        .col-t-3{width: 25%;}
+        .col-t-4{width: 33.33%;}
+        .col-t-5{width: 41.66%;}
+        .col-t-6{width: 50%;}
+        .col-t-7{width: 58.33%;}
+        .col-t-8{width: 66.66%;}
+        .col-t-9{width: 75%;}
+        .col-t-10{width: 83.33%;}
+        .col-t-11{width: 91.66%;}
+        .col-t-12{width: 100%;}
+
+    }
+
+
+/*@media untuk desktop*/
+@media only screen and (min-width: 768px){
+
+        .col-1 {width: 8.33%;}
+        .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}
+
+    }
+
+
+

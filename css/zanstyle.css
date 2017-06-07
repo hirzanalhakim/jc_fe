@@ -18,11 +18,7 @@ body
     float: right;
 }
 
-.menu li {
-    
-    display: inline;
-    
-}
+
 
 .menu li :hover {
     background-color: #e98745;
