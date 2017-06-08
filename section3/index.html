@@ -5,8 +5,109 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <style>
+            .myClass{
+                background-color: red;
+                height: 100px;
+            }
+        </style>
     </head>
-    <body>
-        Hello World
+    <body class="container-fluid">
+
+        <!--button-->
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+
+        <!--alert-->
+        <div class="alert alert-success">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+            <strong>Success!!</strong> Indicates a successful or positive action
+        </div>
+        <div class="alert alert-info">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+            <strong>Info!</strong> Indicates a neutral informative change or action
+        </div>
+        <div class="alert alert-warning">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+            <strong>Warning!!</strong> Indicates a warning that might need attention
+        </div>
+        <div class="alert alert-danger">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+            <strong>Danger!!</strong> Indicates a dangerous or potentially negative action
+        </div>
+
+
+        <!--jumbotron-->
+        <div class="jumbotron">
+            <h1>Title</h1>
+            <p>Explanation</p>
+            
+        </div>
+
+        <!--image-->
+        <div class="row">
+            <div class="col-xs-4 col-sm-6 col-md-4">
+                <img class="img-responsive img-thumbnail" src="img/angular_js.jpg" alt="Image" width="100%">
+            </div>
+            <div class="col-xs-4 col-sm-6 col-md-4">
+                <img class="img-responsive img-thumbnail" src="img/angular_js.jpg" alt="Image" width="100%">
+            </div>
+            <div class="col-xs-4 col-sm-6 col-md-4">
+                <img class="img-responsive img-thumbnail" src="img/angular_js.jpg" alt="Image" width="100%">
+            </div>
+            <div class="col-xs-4 col-sm-6 col-md-4">
+                <img class="img-responsive img-thumbnail" src="img/angular_js.jpg" alt="Image" width="100%">
+            </div>
+        </div>
+
+
+        <!--Table-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3">
+                <table class="table table-bordered table-striped table-hover">
+                <tr>
+                    <th>Col 1</th>
+                    <th>Col 2</th>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                </tr>
+                <tr>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                </tr>
+                <tr>
+                    <td>Value 5</td>
+                    <td>Value 6</td>
+                </tr>
+                </table>
+            </div>
+            
+        </div>
+
+       
+
+        <!--grid-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12 myClass">
+
+            </div>
+        </div>
+
     </body>
 </html>
