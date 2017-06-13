@@ -1,0 +1,102 @@
+
+
+
+.carousel-inner .item img {
+                height: 300px;
+                margin: 0 auto;
+                display: block;
+            }
+    
+    .btn-circle {
+                width: 30px;
+                height: 30px;
+                padding: 6px 0;
+                font-size: 12px;
+                line-height: 1.428571429;
+                border-radius: 15px;
+                margin-top: 10px;
+                }
+
+    /*search box*/
+    #custom-search-form {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-left: 8px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        height: 30px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 1px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+    /*search box*/
+
+
+    /*hr-custom*/
+    .hr-custom{
+        width: 110px;
+        color: black;
+        border-top: 1px solid;
+        margin-top: 3px;
+
+    }
+    /*hr-custom*/
+
+    /*thumbnmail image custom*/
+    .thumbnail img{
+        height: 150px;
+    }
+ /*thumbnmail image custom*/
+
+ .thumbnail{
+     background: none;
+ }
+
+ /*custom-nav*/
+ .custom-nav{
+     margin-bottom: 0px;
+ }
+ /*custom-nav*/
+
+/*row background*/
+ .row-content{
+     background-color: #e0e1e2;
+ }
+
+ /*navbar-margin*/
+.navbar{
+    margin: 0px;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+}
+
+
+/*footer*/
+

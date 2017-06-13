@@ -1,0 +1,55 @@
+
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.carousel-inner .item img {
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-custom{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tulisan-custom{
+    margin-bottom: 20px;
+}
+
+.thumbnail{
+    border: none;
+}
+
+.thumbnail-custom{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caption{
+    padding: none;
+}
+
+.hr-custom{
+    margin-top: 0px;
+}
+
+.hr-custom2{
+    margin-top: 40px;
+}
+.hr-custom{
+    margin-top: 0px;
+}
+
+.vid-testi{
+    margin-bottom: 20px;
+}
+
+.partner img{
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}

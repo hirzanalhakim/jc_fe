@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="CUTF-8">
+        <Title> Project JS </Title>
+
+        <script>
+
+            function cal(operator){
+                 var val1 = parseInt(document.getElementById('val1').value);
+                var val2 = parseInt(document.getElementById('val2').value);
+                if (operator == "+") {
+                    document.getElementById("content1").innerHTML = val1 + val2;
+                } else if (operator == "-"){
+                    document.getElementById("content1").innerHTML = val1 - val2;
+                } else if (operator == "*") {
+                    document.getElementById("content1").innerHTML = val1 * val2;
+                } else if (operator == "/") {
+                    document.getElementById("content1").innerHTML = val1 / val2;
+                }
+
+            }
+
+            // function Addition() {
+            //     var cn = parseInt(document.getElementById('val1').value);
+            //     var cn2 = parseInt(document.getElementById('val2').value);
+
+            //     document.getElementById("content1").innerHTML = cn + cn2;
+            // }
+
+            // function Substraction() {
+            //     var cn = parseInt(document.getElementById('val1').value);
+            //     var cn2 = parseInt(document.getElementById('val2').value);
+
+            //     document.getElementById("content1").innerHTML = cn - cn2; 
+            // }
+
+            // function Multiply() {
+            //     var cn = parseInt(document.getElementById('val1').value);
+            //     var cn2 = parseInt(document.getElementById('val2').value);
+                
+            //     document.getElementById("content1").innerHTML = cn * cn2;
+            //     }
+
+            // function Division() {
+            //     var cn = parseInt(document.getElementById('val1').value);
+            //     var cn2 = parseInt(document.getElementById('val2').value);
+
+            //     document.getElementById("content1").innerHTML = cn / cn2;
+            // }
+
+
+
+            function showMenu() {
+                var result = "<ul>";
+                for(i = 1; i <= 5; i++)
+                {
+                    var item = "<li>" + i + "</li>";
+                    result += item;
+                }
+                result += "</ul>"
+
+                document.getElementById("menu").innerHTML = result;
+            }
+
+        </script>
+
+        <style>
+
+            .Calculator {
+                font-size: 3.5em;
+            }
+
+            #content1 {
+                font-size: 2.5em;
+            }
+
+            </style>    
+    </head>
+
+    <body>
+
+        <input type="text" id="val1">
+        <br>
+        <input type="text" id="val2">
+        <br>
+        <div class="Calculator">
+        <button onclick="cal('+')">+</button>
+        <button onclick="cal('-')">-</button>
+        <button onclick="cal('*')">x</button>
+        <button onclick="cal('/')">/</button>
+        </div>
+        <br>
+        <div id="content1"></div>
+        
+        <button onclick="showMenu()">showMenu</button>
+        <div id="menu"></div>
+    </body>
+
+    </html>

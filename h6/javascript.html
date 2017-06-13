@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="UTF-8">
+        <Title> Project JS </Title>
+
+        <script>
+
+            function myFunction () {
+                document.getElementById('content1').innerHTML = "Halo";
+            }
+            
+
+            function myFunction2() {
+            var a, b, c;
+            a = 10;
+            b = 22;
+            c = 5;
+
+            var result = a + b + c;
+
+            var s = "Hello" + " " + "World!";
+
+            document.getElementById('content1').innerHTML = result + ' ' + s;
+            }
+            function myFunctionJS() {
+                // variable number
+                var num = 10.23;
+                // variable string
+                var str = "Hello";
+                // variable object
+                var obj = {
+                    firstName: "Roy",
+                    lastName: "Martin"
+                };
+                // variable Array
+                var cars = ['Benz', 'Subaru', 'BMW'];
+
+
+            // Cara memanggil Object dan Array dalam JS:
+            document.getElementById('content1').innerHTML = obj.firstName + ' ' + cars[2];
+
+            }
+
+            function myFunction3() {
+                
+                var cn = parseInt(document.getElementById('val1').value);
+                alert(cn + 3);
+            }
+            </script>
+
+
+    </head>
+
+    <body>
+
+        <div id="content1">   
+            
+        </div>
+
+        <br>
+
+        <input type="text" id="val1">
+
+        <button onclick="myFunction3()">Kuriku Mi</button>
+
+        <br>
+
+        <button onclick="myFunction()">Click Me! </button>
+
+        <button onclick="myFunction2()"> Click Me 2! </button>
+
+        <button onclick="myFunctionJS()"> Click 3!</button>
+        <br>
+
+
+    </body>
+
+</html>
